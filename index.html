@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   	  <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	  <title>Pine and Dine</title>
+      
+
+      <link rel = "stylesheet" type = "text/css" href = "website.css">
+     
+
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+     
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+ 
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+
+     <script>
+  $(document).ready(function(){
+    $("#myModal").modal('show');
+  });
+</script>
+
+
+   </head>
+
+   <body>
+
+
+<!-- Navigation bar -->
+   	<header class="bg">
+       
+   	   
+
+
+         <nav class="navbar navbar-expand-lg navbar-light">
+            
+            <img src="img/logo.jpg" alt = "logo" class="logo img-responsive">
+        <!-- For collapsable navbar Button-->
+          
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav">
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link active" href="index.html">HOME</a>
+                  </li>
+                  
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="about.html">ABOUT US</a>
+                  </li>
+                  
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="services.html">OUR SERVICES</a>
+                  </li>  
+
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="menu.html">OUR MENU</a>
+                  </li>  
+
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="gallery.html">GALLERY</a>
+                  </li>  
+
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="booking.html">BOOKING</a>
+                  </li>  
+
+                  <li class="nav-item mr-4 text-center">
+                      <a class="nav-link text-body" href="contact.html">CONTACT US</a>
+                  </li>     
+
+
+               </ul>
+            </div>  
+         </nav> 
+   	  	
+      </header>
+
+      <!-- Home page crousel-->
+    
+   
+           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators temp">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+              </ol>
+
+   
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="img/Home page crousel/sitting area.jpg" alt="sitting area"  class = "d-block  ">
+                       <div class="carousel-caption  carousel-text">
+                          <h2>Welcome to <br><b>PINE AND DINE</b></h2>
+                          <h3>Eat your heart out</h3>
+                       </div>
+                  </div>
+
+                  <div class="carousel-item">
+                     <img src="img/Home page crousel/food.jpg" alt="Food" class = "d-block ">
+                       <div class="carousel-caption    carousel-text">
+                          <h2>Welcome to <br><b>PINE AND DINE</b></h2>
+                          <h3>Eat your heart out</h3>
+                       </div>
+                  </div>
+    
+                   <div class="carousel-item">
+                      <img src="img/Home page crousel/chef.jpg" alt="chef images" class = "d-block ">
+                        <div class="carousel-caption   carousel-text">
+                          <h2>Welcome to <br><b>PINE AND DINE</b></h2>
+                          <h3>Eat your heart out</h3>
+                       </div>
+                   </div>
+
+                  <div class="carousel-item">
+                      <img src="img/Home page crousel/4th pic.jpg" alt="last pic" class = "d-block ">
+                        <div class="carousel-caption  carousel-text">
+                          <h2>Welcome to <br><b>PINE AND DINE</b></h2>
+                          <h3>Eat your heart out</h3>
+                       </div>
+                  </div>
+               </div>
+             <a class="left carousel-control-prev" href="#myCarousel" role = "button" data-slide="prev">
+                   <!-- <i class="fas fa-chevron-circle-left"></i> -->
+                     <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control-next" href="#myCarousel" role = "button" data-slide="next">
+                 <!-- <i class="fas fa-chevron-circle-right"></i> -->
+                     <span class="sr-only">Next</span>
+             </a>
+         </div>
+       
+   
+   
+ <!-- About us-->
+ <div class = "container mb-5">
+   <div class="row">
+      <div class = " col-lg-3 col-md-4 col-sm-12">
+         <img src = "img/about home page/venue.jpg" alt = "venue" class = "venue mr-5">
+         <img src = "img/about home page/shakes.jpeg" alt = "shakes" class = "shakes">
+      </div>
+   
+      <div class = "about col-lg-6 col-md-12 col-sm-12 col-10 ml-xs-2">
+         <h2 class = "text-center text-primary font-weight-bold">ABOUT US</h2>
+           <p>Pine and dine is  located in the heart of delhi. 
+From family-style dining to riffs of indian street food, 
+our menu balances intense fresh flavours with seasonal ingredients and locally sourced products. our menu is served alongside an inspired mocktail card, which 
+uses fresh fruits and no artificial flavours or preserved fruit essense is used ,no compromise is done with the flavours ,
+Connecting people to place through contemporary indian cuisine, pine and dine crafts inspired dishes reflective of our country’s diverse landscape, history and culture. 
+Our chefs work closely with farmers and suppliers to source the finest ingredients from across the nation.
+With over 20 years of culinary history, Canoe continues to challenge creative boundaries in the spirit of celebrating india and its distinct provinces.
+"Creating a memorable experience is what we strive for. From corporate business functions, family get togethers, wine dinners or extravagant affairs, it is our utmost pleasure to accommodate.                
+We also offer the option of a full restaurant buyout for seated dinners or standing receptions. 
+Please contact our events coordinator for additional details or to set up a tour of our space.</p>
+
+           <a class = "btn btn-primary btn-1 mb-3" href = "about.html">View More</a>
+      </div>
+   
+
+      
+      
+        <div class = " col-lg-3 col-md-4 col-sm-12">
+          <img src = "img/about home page/food.jpeg" alt = "food" class = "food">
+          <img src = "img/about home page/sitting.jpeg" alt = "sitting" class = "sitting mb-3">
+        </div>
+        
+     
+   </div>   
+ </div>
+
+ <!-- SERVICES-->
+
+    
+      <h2 class = "text-center text-primary font-weight-bold display-4 ">SERVICES</h2>
+           <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators temp">
+                  <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel1" data-slide-to="1"></li>
+                  <li data-target="#myCarousel1" data-slide-to="2"></li>
+                  <li data-target="#myCarousel1" data-slide-to="3"></li>
+              </ol>
+
+   
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="img/services home page/birthday.jpg" alt="birthday"  class = "d-block">
+                       <div class="carousel-caption d-none  carousel-text carousel-text1">
+                          
+                          <h2><b>Birthday Party</b></h2>
+                       </div>
+                  </div>
+
+                  <div class="carousel-item">
+                     <img src="img/services home page/theme.jpg" alt="Theme" class = "d-block ">
+                       <div class="carousel-caption d-none  carousel-text carousel-text1">
+                         
+                          <h2><b>Theme Party</b></h2>
+                       </div>
+                  </div>
+    
+                   <div class="carousel-item">
+                      <img src="img/services home page/coperate.jpg" alt="coperate food" class = "d-block ">
+                        <div class="carousel-caption d-none  carousel-text carousel-text1">
+                          
+                          <h2><b>Corporate Food</b></h2>
+                       </div>
+                   </div>
+
+                  <div class="carousel-item">
+                      <img src="img/services home page/annual.jpg" alt="annual function" class = "d-block ">
+                        <div class="carousel-caption d-none  carousel-text carousel-text1">
+                         
+                          <h2><b>Annual Function</b></h2>
+                       </div>
+                  </div>
+               </div>
+                    <a class="left carousel-control-prev" href="#myCarousel1" role = "button" data-slide="prev">
+                   <i class="fas fa-chevron-circle-left"></i>
+                     <span class="sr-only">Previous</span>
+             </a>
+             <a class="right carousel-control-next" href="#myCarousel1" role = "button" data-slide="next">
+                 <i class="fas fa-chevron-circle-right"></i>
+                     <span class="sr-only">Next</span>
+             </a>
+               
+         </div>
+       
+
+ <!-- Menu section-->
+ <div class="bg">
+   <div class="container-fluid ">
+      
+        <h1 class = "text-center text-primary font-weight-bold ">SOME SPECIAL ITEMS</h1>
+
+      <div class = "row justify-content-center ">
+         <div class = "col-lg-6 col-md-6">
+            <img src="img/menu home page/butter_chicken.JPG " alt = "Butter chicken" class = "food1">
+         </div>
+         <div class="col-lg-6 col-md-6 first_item">
+            <div style="margin:20% 30% 0% 10%">
+               <h3 class = "text-danger font-weight-bold">Butter Chicken</h3>
+            <p>Chunks of chicken tikka cooked in rich tomatoe gravy and cream with the blended flavours of indian spices in the currry and topped with butter and cream 
+            with a touch of sourness and a perfect dish to go with butter naan . </p>   
+
+            </div>
+         </div>
+       </div>
+
+       <div class = "row justify-content-center">
+        
+         <div class="col-lg-6 col-md-6 second_item">
+            <div style="margin:10% 10% 0% 30%">
+               <h3 class = "text-danger font-weight-bold">Kadai paneer</h3>
+            <p>Indian cottage cheese cooked in gravy with five spice mix and chunks of vegetable like onion , tomatoe and capsisum, rich gravy with a little tangy punch finished with little bit of corriander .</p>   
+            </div>
+         </div>
+         <div class = "col-lg-6 col-md-6">
+           <img src="img/menu home page/kadhai_paneer.jpg" alt = "Kadai Paneer" class = "food2">
+         </div>
+       </div>
+
+
+      <div class = "row justify-content-center">
+          <div class = "col-lg-6 col-md-6  ">
+            <img src="img/menu home page/dhosa.jpg" alt = "Dhosa" class = "food3">
+         </div>
+               <div class="col-lg-6 col-md-6 float-right  third_item">
+                  <div style="margin:20% 30% 0% 10%">
+                     <h3 class = "text-danger font-weight-bold">Dhosa</h3>
+                     <p>Indian version of pancakes made with urad daal , the healthiest and the tastiest option to eat stuffed with mashed potato and cottage cheese with a little bit of spices, served with a lentil soup brouth with vegies and coconut chutney .</p>   
+                  </div>
+               </div>
+      </div>
+
+
+      <div class = "row justify-content-center">
+        <div class="col-lg-6 col-md-6  fourth_item">
+         <div style="margin:10% 10% 0% 30%">
+            <h3 class = "text-danger font-weight-bold">Manchurian</h3>
+            <p> Manchurian Chicken/Prawn/Fish/Mutton, consisting of a variety of meats or paneer with vegetables in a spicy brown sauce which consist of soya sauce, vinegar and other Chinese spices.</p>   @media (min-width: 768px) and (max-width: 992px){
+  .carousel-text{
+    margin-left: 27%;
+    margin-bottom: 30%;
+  }
+}
+         </div>
+      </div>
+             <div class = "col-lg-6 col-md-6  float-right">
+              <img src="img/menu home page/Manchurian.png" alt = "Manchurian" class = "food4">
+             </div>
+      </div>
+       
+
+      <div class = "row justify-content-center">
+          <div class = "col-lg-6 col-md-6  ">
+            <img src="img/menu home page/Chicken_Tikka.jpg" alt = "Chicken Tikka" class = "food5">
+         </div>
+               <div class="col-lg-6 col-md-6 float-right  fifth_item">
+                  <div style="margin:20% 30% 0% 10%">
+                     <h3 class = "text-danger font-weight-bold">Chicken Tikka</h3>
+                     <p>Boneless chicken traditionally baked in a tandoor oven then coated in a creamy tomato sauce,the tikka masala combines the creaminess of milder curries with a hint of spice from hotter variants to form the perfect medium dish. The richness of traditional spices makes the tikka a delicious snack.</p>   
+                  </div>
+               </div>
+      </div>
+
+
+      <div class = "row justify-content-center">
+         <div class="col-lg-6 col-md-6   sixth_item">
+            <div style="margin:20% 10% 0% 30%">
+               <h3 class = "text-danger font-weight-bold">Kitkat Shake</h3>
+               <p>    Rich creamy shake for kitkat lovers , thick shake with chunks of kitkat combined with ice cream and blended with the finest choclates.</p>   
+            </div>
+         </div>
+             <div class = "col-lg-6 col-md-6  float-right">
+               <img src="img/menu home page/kitkat.jpg" alt = "Kitkat shake" class = "food6">
+             </div>
+
+      </div>
+
+      <a class = "btn btn-primary btn-2 btn-lg mb-5" href = "menu.html">View More</a>
+   </div>
+ </div>
+
+
+
+<!--galery-->
+ 
+  
+
+      <div class="container-fluid">
+        <div class="row">
+          <h1 class = "text-center text-primary  display-4 col-lg-12 col-md-12 col-sm-12  mt-5 gallery-heading">OUR GALLERY</h1>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/galery home page/chef.jpg" alt = "chef"  class = "img2">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+             <img src="img/galery home page/sitting1.jpg" alt = "sitting" class = "img2">
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+             <img src="img/galery home page/pasta.webp" alt = "pasta" class = "img2 "> 
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="img/galery home page/pizza.jpg" alt = "pizza"  class = "img2 img3">
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+             <img src="img/galery home page/chicken.png" alt = "chicken" class = "img2 img3">
+           </div>
+           <div class="col-lg-4 col-md-6 col-sm-12">
+             <img src="img/galery home page/shakes.jpg" alt = "shake"  class = "img2">
+          </div>
+
+           <a class = "btn btn-primary btn-3 btn-lg mt-5" href = "gallery.html">View More</a>
+        </div>
+
+        
+      </div>
+
+
+<!-- Contact us-->
+<div class="bg">
+   <div class="container">
+      <h1 class = "text-center text-primary font-weight-bold display-4 mt-5">CONNECT WITH US</h1>
+       
+         <form>
+            <input type="text" required name="Name" placeholder="Your Name*" class="form col-lg-5 col-md-3 col-sm-8 col-8">
+               
+            <input type="email" required name="email" placeholder="Your Email*" class="form col-lg-5 col-md-3 col-sm-8 col-8">
+              
+            <input type="tel" required name="Number" placeholder="Phone no.*" class="form col-lg-5 col-md-3 col-sm-8 col-8">   
+      
+            <input type="text" required name="location" placeholder="Location*" class="form col-lg-5 col-md-3 col-sm-8 col-8">
+               
+            <br>
+
+            <textarea name = "comment" placeholder="Message *" class = "textarea" rows="6"></textarea>
+                  
+            <button class="btn btn-primary btn-lg btn-4 mb-5">Connect Now!</button>
+                
+         </form>
+     
+   </div>
+ </div>
+
+
+
+
+   <!-- Footer-->
+
+   <div class="container-fluid  footer ">
+    <div class= "row">
+     <div class="col-lg-4 col-sm-12">
+        <img src="img/logo.jpg" width="200" height="100" alt="logo" class="mt-5 ml-5 footer-logo">
+     </div>
+
+     <div class="col-lg-4 col-md-6 col-sm-12 float-right my-3 my-lg-5 my-md-5">
+       <h3><u>REACH US</u></h3>
+       <br>
+           <span><i class="fa fa-map-marker mr-3"></i>Address:</span>
+           <span>Dilshad Garden</span>
+           <br>
+           <span><i class="fa fa-map-marker mr-3"></i>Works:</span>
+           <span>Jhilmil</span>
+      
+     </div>
+     
+     <div class="col-lg-4 col-md-6 col-sm-12 float-right my-4 my-lg-5 my-md-5">
+       <h3><u>CONTACT US</u></h3>
+       <br>
+
+       <span><i class="fas fa-phone-alt mr-3"></i>Phone:</span>
+       <span>+ 91 0987654321 / 9876543210 </span>
+       <br>
+       <span><i class="fa fa-envelope mr-3"></i>Email:</span><a href="mailto:abc@gmail.com">abc@gmail.com </a>
+     </div>
+
+   </div>
+ 
+
+
+ <!-- Copyright-->
+
+   <!-- <div class="container-fluid copyright"> -->
+     <div class="row copyright">
+       <div class="col-lg-5 col-md-5 col-sm-12   ">
+         <p>Copyrights © 2020 - <a class="kho-font" href="#"><b>Pine and Dine</b></a> All Rights Reserved</p>
+       </div>
+
+      
+
+       <div class="col-lg-6 col-md-6 col-sm-12 float-left">
+         <h2 class=" ml-5 follow"><b>FOLLOW ME : </b>
+         <a href="https://www.facebook.com/"><span><i class="fab fa-facebook-f ml-2"></i></span></a>
+         <a href = "https://twitter.com/login?lang=en"><span> <i class="fab fa-twitter"></i></span></a>
+         <a href="https://www.instagram.com/"><span><i class="fab fa-instagram"></i></span></a>
+        
+       </h2>
+       </div>
+     </div>
+   </div>
+</div>
+
+</body>
+</html>
+
+
+   
+
+  
